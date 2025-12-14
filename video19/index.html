@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* the specificity of this selector is i*/
+        h1{
+            color:aqua;
+        }
+        /* the specificityb of this selector is 10*/
+         .cpurple{
+            color:purple;
+
+
+        }
+        /* the specificity of thisselector os 10*/
+        .cred{
+            color:red;
+
+
+        }
+        /*10  the specifity of this selector is 1 +10+10+10+10=41*/
+        a.jkclass.rohan-cl
+       h1 .yellow{
+            color:yellow;
+        }
+        /* this is an example of attribyute selector . the specificity of this selector is 10*/
+        
+    
+       [data -x=a]{
+            background-color:red;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style ="color:maroon"class="yellow cred cpurple"data-x="a">CSS Specificity</h1>
+
+
+    </div>
+    
+</body>
+</html>
