@@ -1,5 +1,10 @@
 {
 
     "title":"Copyright Songs",
-    "description":"Cover Songs for you"
+    "description":"Cover Songs for you",
+    "songs": [
+    "Claim-To-Fame-The-Grey-Room-Clar.mp3",
+    "A-Stroll-The-Grey-Room-T-Copy.mp3"
+  ]
+    
 }

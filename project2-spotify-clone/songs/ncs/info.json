@@ -1,5 +1,18 @@
 {
 
     "title":"Sleep Songs",
-    "description":"Songs for you"
+    "description":"Songs for you",
+    "songs": [
+   "A-Stroll-The-Grey-Room-Density-T.mp3",
+   "b.mp3",
+   "k.mp3",
+   "l.mp3",
+   "m.mp3",
+   "o.mp3",
+   "p.mp3",
+   "s.mp3",
+   "t.mp3",
+   "v.mp3",
+   "z.mp3"
+  ]
 }
