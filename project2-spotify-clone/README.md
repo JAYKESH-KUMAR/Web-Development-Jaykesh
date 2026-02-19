@@ -1,26 +1,30 @@
-# Spotify Clone 🎧
+# Spotify Clone 
 
-This is my Spotify UI Clone which I built while learning Web Development.  
-I created this project using HTML, CSS and JavaScript by following tutorials and practicing on my own.
+This is my Spotify UI Clone project which I built while learning Web Development.  
+I created this project using HTML, CSS and JavaScript to understand layouts, music cards and basic player interaction.
 
-## What I Practiced
-- Basic page layout
-- Styling using CSS
+## Preview
+![Spotify Clone Screenshot](screenshot.png)
+
+## Features
+- Play / Pause button
+- Music card layout
+- Sidebar navigation
 - Hover effects
-- Simple JavaScript interaction
+- Basic music player UI
 
 ## Tech Used
-HTML  
-CSS  
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Project Purpose
-This project is only for learning and practice.  
-I tried to understand how music cards, play buttons and layouts work like the Spotify website.
+This project is made only for learning and practice.  
+I tried to understand how a music streaming interface works and how UI components are structured.
 
-## Live Link
-https://JAYKESH-KUMAR.github.io/Web-Development-Jaykesh/PROJECT2-SPOTIFY%20CLONE/
+## Live Demo
+https://JAYKESH-KUMAR.github.io/Web-Development-Jaykesh/project2-spotify-clone/
 
----
 
-Made by Jaykesh kumar
+
+Made by Jaykesh Kumar
