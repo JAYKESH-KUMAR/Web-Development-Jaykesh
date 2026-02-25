@@ -19,7 +19,7 @@ JavaScript
 Project Purpose
 This project is only for learning and practice. I tried to recreate the look and feel of Twitter UI.
 
-Live Link
-jaykesh-twitter-clone.netlify.app
+## Live Demo
+ [View Live Project](https://jaykesh-twitter-clone.netlify.app)
 
 Made by Jaykesh Kumar
