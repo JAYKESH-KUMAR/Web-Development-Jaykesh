@@ -1,22 +1,48 @@
-# React + Vite
+# iTask – Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todo List application that I built while learning React and Tailwind CSS.
 
-Currently, two official plugins are available:
+The main goal of this project was to understand component-based UI, state management and building a clean responsive interface using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Add new tasks
+- Delete tasks
+- Clean and responsive UI
+- Built using React components
+- Styled with Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React (Vite)
+- Tailwind CSS
+- JavaScript
+- HTML
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Structure
 
-Currently, two official plugins are available:
+project4-todo-app
 
-@vitejs/plugin-react uses Babel for Fast Refresh
-@vitejs/plugin-react-swc uses SWC for Fast Refresh
+node_modules/ – project dependencies  
+public/ – static assets  
+src/ – main React source code  
+index.html – main HTML file  
+package.json – project configuration  
+tailwind.config.js – Tailwind CSS configuration  
+
+## Live Demo
+
+https://project4-todo-app.netlify.app
+
+## GitHub Repository
+
+https://github.com/JAYKESH-KUMAR/Web-Development-Jaykesh
+
+## Purpose
+
+This project is part of my web development learning journey.  
+I am building small projects to understand modern frontend tools like React, Tailwind and Vite.
+
+---
+
+Made with ❤️ by **Jaykesh Kumar**
