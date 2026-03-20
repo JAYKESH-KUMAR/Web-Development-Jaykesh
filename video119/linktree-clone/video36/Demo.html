@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Transform Complete Demo</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+h2{
+    text-align:center;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:25px;
+    padding:40px;
+}
+
+.box{
+    width:160px;
+    height:100px;
+    background:#8fd6e8;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-weight:bold;
+    transition: transform 0.6s ease;
+    cursor:pointer;
+}
+
+/*  TRANSFORMS Z  me nhi hota */
+
+.scaleX:hover{ transform: scaleX(1.5); }
+.scaleY:hover{ transform: scaleY(1.5); }
+.scale:hover{ transform: scale(1.3); }
+
+.translateX:hover{ transform: translateX(40px); }
+.translateY:hover{ transform: translateY(30px); }
+.translate:hover{ transform: translate(30px, 20px); }
+
+.rotate:hover{ transform: rotate(45deg); }
+
+.skew:hover{ transform: skew(20deg,10deg); }
+.skewX:hover{ transform: skewX(25deg); }
+.skewY:hover{ transform: skewY(25deg); }
+
+.matrix:hover{
+    transform: matrix(1, 0.3, 0.3, 1, 20, 10);
+}
+
+/*  3D TRANSFORMS  */
+.perspective{
+    perspective:600px;
+}
+
+.rotateX:hover{ transform: rotateX(60deg); }
+.rotateY:hover{ transform: rotateY(60deg); }
+
+.translate3d:hover{
+    transform: translate3d(30px, -20px, 50px);
+}
+
+.matrix3d:hover{
+    transform: matrix3d(
+        1,0,0,0,
+        0,1,0,0,
+        0,0,1,0,
+        30,20,0,1
+    );
+}
+</style>
+</head>
+
+<body>
+
+<h2>CSS Transform – Complete Demo (Hover Effects)</h2>
+
+<div class="container perspective">
+
+    <div class="box scaleX">scaleX</div>
+    <div class="box scaleY">scaleY</div>
+    <div class="box scale">scale</div>
+    <div class="box translateX">translateX</div>
+
+    <div class="box translateY">translateY</div>
+    <div class="box translate">translate</div>
+    <div class="box matrix">matrix</div>
+    <div class="box rotate">rotate</div>
+
+    <div class="box skew">skew</div>
+    <div class="box skewX">skewX</div>
+    <div class="box skewY">skewY</div>
+    <div class="box matrix3d">matrix3d</div>
+
+    <div class="box translate3d">translate3d</div>
+    <div class="box rotateY">rotateY</div>
+    <div class="box rotateX">rotateX</div>
+
+</div>
+
+<p style="text-align:center;">
+Hover mouse on each box
+</p>
+
+</body>
+</html>

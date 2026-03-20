@@ -78,6 +78,7 @@ Open the project in your browser:
 ```
 http://localhost:3000
 ```
+<<<<<<< HEAD
 
 
 ## Future Improvements
@@ -95,3 +96,31 @@ Jaykesh Kumar
 
 GitHub:
 https://github.com/JAYKESH-KUMAR
+=======
+
+---
+
+
+---
+
+## Future Improvements
+
+* Link analytics
+* QR code generation
+* Custom domains
+* User dashboard
+
+*Live Demo
+https://web-development-jaykesh.vercel.app 
+
+---
+
+## Author
+
+Jaykesh Kumar
+
+GitHub:
+https://github.com/JAYKESH-KUMAR
+
+
+>>>>>>> a25b15262f0cae6f0be731e8738a13e3c9d79d56
